@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.3rem;
+}
+nav {
+  background-color: #0e0e0e;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #ffffff;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover{
+  color:blanchedalmond;
+}
+
+
+.launch-card {
+  display: flex;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  padding: 16px;
+}
+
+.launch-path {
+  padding: 0px 8px;
+}
+
+.patch-img {
+  width: 200px;
+  height: 200px;
+}
+
+.card-body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.card-description p{
+  font-weight: 500;
+}
+
+.launches-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 3fr);
+  grid-gap: 18px;
+  padding: 10px;
+}
+
+.launch-link-container {
+  text-align: center;
+}
